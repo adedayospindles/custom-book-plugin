@@ -17,7 +17,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-book-meta-box.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-book-archive.php';
 require_once plugin_dir_path(__FILE__) . 'includes/enqueue-scripts.php';
 
-// Enable the file below so that only books from the science-fiction genre is displayed
+// Uncomment the part below so that only books from the science-fiction genre is displayed
 // require_once plugin_dir_path(__FILE__) . 'includes/class-book-query.php'; 
 
 
