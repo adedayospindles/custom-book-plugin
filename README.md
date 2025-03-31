@@ -7,7 +7,6 @@
  */
 
 
-To ensure that only the science-fiction genre is displayed in the books archive page, uncomment the part below in the main plugin file
+To ensure that only the science-fiction genre is displayed in the books archive page, uncomment the part below in the main plugin file (custom-book-plugin.php)
  
 // require_once plugin_dir_path(__FILE__) . 'includes/class-book-query.php'; 
-
