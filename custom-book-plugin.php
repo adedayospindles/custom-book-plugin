@@ -15,8 +15,10 @@ require_once plugin_dir_path(__FILE__) . 'includes/class-book-post-type.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-book-taxonomy.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-book-meta-box.php';
 require_once plugin_dir_path(__FILE__) . 'includes/class-book-archive.php';
-//require_once plugin_dir_path(__FILE__) . 'includes/class-book-query.php'; // Enable this to show science-fiction genre books alone
 require_once plugin_dir_path(__FILE__) . 'includes/enqueue-scripts.php';
+
+// This is enabled so that only books from the science-fiction genre is displayed
+require_once plugin_dir_path(__FILE__) . 'includes/class-book-query.php'; 
 
 
 // Initialize the classes
